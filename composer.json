@@ -2,6 +2,7 @@
     "name": "caronte/auth",
     "description": "auth by caronte",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Caronte\\Auth\\": "src/"
