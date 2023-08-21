@@ -1,0 +1,10 @@
+{
+    "name": "caronte/auth",
+    "description": "auth by caronte",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Caronte\\Auth\\": "src/"
+        }
+    }
+}
