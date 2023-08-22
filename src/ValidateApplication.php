@@ -6,7 +6,7 @@
  * 18.04.19
  */
 
-namespace App\Http\Middleware\Auth;
+namespace Caronte\Auth;
 
 use Closure;
 

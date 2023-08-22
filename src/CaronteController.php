@@ -6,13 +6,13 @@
 * 23.03.28
 */
 
-namespace App\Http\Controllers\Caronte;
+namespace Caronte\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Exception;
 //Models
-use App\Classes\Vendor\Caronte\CaronteRequest;
+use Caronte\Auth\CaronteRequest;
 
 class CaronteController extends Controller
 {

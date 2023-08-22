@@ -63,14 +63,12 @@ class CaronteRequest
         } catch (Exception $e) {
             return forbidden($e->getMessage());
         }
-        if(empty($callback_url))
-        {
+        if (empty($callback_url)) {
             return view('modules.admin.dashboard')->with(
                 [
                     'success' =>  'Sesión iniciada con éxito'
                 ]
-        );
-
+            );
         }
         return redirect($callback_url)
             ->with(
@@ -78,7 +76,6 @@ class CaronteRequest
                     'success' => 'Sesión iniciada con éxito'
                 ]
             );
-
     }
 
     public static function twoFactorTokenRequest(Request $request)

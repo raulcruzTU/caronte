@@ -6,7 +6,7 @@
 * 23.03.28
 */
 
-namespace App\Classes\Vendor\Caronte;
+namespace Caronte\Auth;
 
 class CarontePermissionValidator
 {
