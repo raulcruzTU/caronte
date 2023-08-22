@@ -6,12 +6,13 @@
 * 23.03.28
 */
 
-namespace Caronte\Auth;
+namespace App\Http\Middleware\Caronte;
 
 use Caronte\Auth\CaronteHelper;
 use Caronte\Auth\CarontePermissionValidator;
 use Exception;
 use Closure;
+
 
 class CaronteValidateApplication
 {
