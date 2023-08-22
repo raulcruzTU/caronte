@@ -6,7 +6,7 @@
 * 23.03.28
 */
 
-namespace App\Http\Middleware\Caronte;
+namespace Caronte\Auth\Middleware\Caronte;
 
 use Caronte\Auth\CaronteHelper;
 use Caronte\Auth\CarontePermissionValidator;
