@@ -8,11 +8,11 @@
             "Caronte\\Auth\\": "src/"
         }, 
         "files": [
-            "Helpers/routeHelper.php",
-            "Helpers/userHelper.php",
-            "Helpers/securityHelper.php",
-            "Helpers/geoHelper.php",
-            "Helpers/htmlHelper.php"
+            "src/Helpers/routeHelper.php",
+            "src/Helpers/userHelper.php",
+            "src/Helpers/securityHelper.php",
+            "src/Helpers/geoHelper.php",
+            "src/Helpers/htmlHelper.php"
         ]
     }
 }
