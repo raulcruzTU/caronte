@@ -6,12 +6,13 @@
     "autoload": {
         "psr-4": {
             "Caronte\\Auth\\": "src/"
-        }, "files": [
-            "Caronte/Auth/Helpers/routeHelper.php",
-            "Caronte/Auth/Helpers/userHelper.php",
-            "Caronte/Auth/Helpers/securityHelper.php",
-            "Caronte/Auth/Helpers/geoHelper.php",
-            "Caronte/Auth/Helpers/htmlHelper.php"
+        }, 
+        "files": [
+            "Helpers/routeHelper.php",
+            "Helpers/userHelper.php",
+            "Helpers/securityHelper.php",
+            "Helpers/geoHelper.php",
+            "Helpers/htmlHelper.php"
         ]
     }
 }
